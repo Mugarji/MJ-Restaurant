@@ -1,0 +1,154 @@
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('healthy-7213383_1280.jpg'); /* Replace with your image */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #d35400;
+}
+
+/* Menu Section */
+#menu {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    width: 30%;
+}
+
+.menu-item h3 {
+    color: #e67e22;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+}
+
+#contact button {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#contact button:hover {
+    background-color: #d35400;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+    height: 5%;
+}
+span{
+    color: crimson;
+}
